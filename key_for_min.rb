@@ -8,6 +8,14 @@ def key_for_min_value(name_hash)
     
     if value < 5
       array << value 
+      key = name 
+      elsif 
+      value < 20
+      array << value 
+      key = name 
+    else 
+      nil 
     end 
   end
+  key 
 end 
