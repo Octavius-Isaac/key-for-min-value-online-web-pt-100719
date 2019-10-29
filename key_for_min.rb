@@ -6,7 +6,8 @@ def key_for_min_value(name_hash)
     array = []
     min_value = 0 
     
-    if value 
+    if value < 5
+      array << value 
     end 
   end
 end 
